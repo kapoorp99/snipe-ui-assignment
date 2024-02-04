@@ -8,6 +8,7 @@ const TargetAudience = () => {
                 return (
                     <Tag className="w-max rounded-full"
                         text={`Target ${item}`}
+                        key={index}
                     />
                 )
             })}
