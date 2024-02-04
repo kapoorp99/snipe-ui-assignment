@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #f3c614;
+  --secondary: #353535;
+}
+
+.base__layout {
+  @apply flex min-h-screen bg-[#e1e6f6];
+}
+
+.dot {
+  @apply w-2 h-2 bg-[#6729fe] rounded-full;
+}
+
+.download__btn {
+  @apply px-4 py-2 bg-gray-300 flex align-middle gap-2 text-white rounded-full text-sm;
+}
+
+.download__btn--text {
+  @apply text-gray-600;
+}
+
+.download__btn--icon {
+  @apply text-gray-600;
+}
+
+.search__input {
+  @apply border-none outline-none;
+}
+
+.target__audience {
+  @apply text-[#353535] grid grid-cols-3 gap-2;
+}
